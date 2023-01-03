@@ -1,0 +1,20 @@
+1 - abrir arquivo slideshow.liquid
+
+2 - procurar por slideshow__text-wrapper
+
+3 - colocar <a href="{{ block.settings.image_link }}" style="position: absolute; bottom: 0; right: 0; left: 0;top: 0;"> uma linha acima (siga os passos do video)
+
+4 - fechar </a> (siga os passos do video)
+
+5 - procurar por image_picker e colar depois da virgula (siga os passos do video)
+        {
+          "type": "url",
+          "id": "image_link",
+          "label": "Image Link"
+        },
+
+6 - abrir o arquivo component-slideshow.css
+
+7 - procurar por .slideshow__text.banner__box e apagar display: flex; (siga os passos do video)
+
+8 - salvar tudo
